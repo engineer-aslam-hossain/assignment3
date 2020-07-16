@@ -1,6 +1,7 @@
 // feetToMile problem solving function
 
 function feetToMile(feet) {
+  let mile = 0;
   if (feet < 0) {
     console.log(
       "feet cannot be a negative number, please provide a positive number and try again"
@@ -16,6 +17,7 @@ console.log(`converted feet amount is = ${mileNumber} mile `);
 // woodCalculator function
 
 function woodCalculator(chair, table, bed) {
+  let totalWoodAmount;
   if (chair < 0 || table < 0 || bed < 0) {
     console.log(
       "you cannot make your furniture by put negative value. give positive value and try again"
