@@ -17,7 +17,7 @@ console.log(`converted feet amount is = ${mileNumber} mile `);
 // woodCalculator function
 
 function woodCalculator(chair, table, bed) {
-  let totalWoodAmount;
+  let totalWoodAmount = 0;
   if (chair < 0 || table < 0 || bed < 0) {
     console.log(
       "you cannot make your furniture by put negative value. give positive value and try again"
